@@ -1,5 +1,6 @@
 import * as jest from "jest-mock";
 window.jest = jest;
+import "../style.css";
 
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },

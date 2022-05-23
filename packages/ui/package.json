@@ -29,6 +29,7 @@
     "tsconfig": "*",
     "typescript": "^4.5.2",
     "vite": "^2.9.9",
+    "vite-tsconfig-paths": "^3.4.1"
   },
   "dependencies": {}
 }

@@ -2,13 +2,23 @@
   "pipeline": {
     "build": {
       "dependsOn": ["^build"],
-      "outputs": ["dist/**", ".next/**"]
+      "outputs": [
+        "dist/**",
+        ".next/**", 
+        "lib/**",
+        "storybook-static/**"
+      ]
     },
     "lint": {
       "outputs": []
     },
     "dev": {
       "cache": false
+    },
+    "storybook": {
+      "dependsOn": ["^storybook"],
+      "cache": false,
+      "outputs": []
     }
   }
 }
